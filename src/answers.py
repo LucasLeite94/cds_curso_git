@@ -14,7 +14,7 @@ def rd1_question_9(df):
         df_grouped,
         x='seller_type',
         y = 'count',
-        labels = {'seller_type': 'seller type', 'count', 'quantity'},
+        labels = {'seller_type': 'seller type', 'count': 'quantity'},
         color = 'seller_type',
         text = 'count',
     )
